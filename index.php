@@ -7,7 +7,7 @@
  */
 namespace fizzBuzz;
 require_once "classes/fizzbuzz.php";
-
+echo "Welcome to fizzbuzz generator, presented by yetibot. <br>";
 $fuzz = new fizzbuzz();
 try{
     $fuzz->FizzBuzz();
